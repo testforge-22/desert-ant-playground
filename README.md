@@ -21,7 +21,7 @@ Voz (speech to text), Align, Title, Uhm and Clips are Apple-only and cannot run 
 ## Run locally
 
 ```sh
-npm ci --omit=optional      # koffi (Node native addon) is not needed in the browser
+npm ci
 npm run prepare-assets      # downloads ~200 MB of pinned model weights into public/models, copies the LiteRT runtime
 npm run dev                 # http://localhost:5173
 npm run build && npm run preview

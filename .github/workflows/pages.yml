@@ -23,7 +23,8 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci --omit=optional
+      # No --omit=optional: typescript 7 ships its compiler as a platform-specific optional package.
+      - run: npm ci
       # ~200 MB of pinned model weights from Hugging Face; cached by manifest hash.
       - uses: actions/cache@v4
         with:
