@@ -1,0 +1,17 @@
+{
+  "note": "Web (LiteRT.js) files per model, pinned to the revisions desert-ant-core 3.1.0 ships. Source: Sources/<Model>/Catalog.swift and Variant.swift.",
+  "models": [
+    { "id": "shapes", "repo": "desert-ant-labs/shapes", "revision": "v0.3.0",
+      "files": ["shapes.tflite", "shapes_meta.json"] },
+    { "id": "emo", "repo": "desert-ant-labs/emo", "revision": "v0.7.0",
+      "files": ["emo.tflite", "emo_meta.json", "emo_tokenizer.bin"] },
+    { "id": "redact", "repo": "desert-ant-labs/redact", "revision": "v0.4.0",
+      "files": ["redact.tflite", "redact_tokenizer.bin", "labels.json"] },
+    { "id": "gist", "repo": "desert-ant-labs/gist", "revision": "v2.2.0",
+      "files": ["gist.tflite", "gist_tokenizer.bin", "gist_embedding.i8", "gist_embedding.json", "gist_config.json", "taxonomy.json"] },
+    { "id": "ear", "repo": "desert-ant-labs/ear", "revision": "v0.1.0",
+      "files": ["ear.tflite", "ear_meta.json", "languages.json", "mel_filters.f32"] },
+    { "id": "clear", "repo": "desert-ant-labs/clear", "revision": "v0.3.0",
+      "files": ["clear-studio.tflite"] }
+  ]
+}
